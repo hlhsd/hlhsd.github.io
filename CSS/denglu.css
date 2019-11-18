@@ -1,0 +1,28 @@
+@charset "utf-8";
+.topbox{height: 99px;}
+.topbox img{margin-top: 24px;}
+.topbox-right{float: right;margin-right: 117px;}
+.topbox-right ul li{float: left;}
+.topbox-right ul li img{margin-top: 41px;}
+.topbox-right ul li p{font-size: 20px;color: #848383;margin-top: 45px;margin-left: 10px;}
+
+.bgrd{width: 1920px;height: 690px;background: url(../images/index-img_10.jpg);position: absolute;left: 50%;margin-left: -960px;}
+.biaodian{float: right;margin-right: 390px;margin-top: 30px; width: 411px;height: 525px;background-color: white;}
+.biaodian h2{text-align: center;font-size: 24px;margin-top: 35px;}
+.biaodian form{margin-top: 18px;}
+input{width: 350px;height: 51px;border: 2px solid #efefef;margin-left: 30px;margin-top: 20px;font-size: 16px;color: #BCBCBC;}
+input[type="submit"]{background: #00b7ee;border: none;}
+.zhuce p{margin-left:33px; margin-top: 12px;font-size: 14px;color: #cfcbc9;}
+.passwd p{float: right;margin-top: -20px;margin-right: 20px;font-size: 14px;color: #cfcbc9;}
+.hengxian{width: 350px; height: 120px;border-bottom: 2px solid #c5c0bd;margin-left: 30px;}
+.otherindex{width: 88px;height: 19px;margin-left: 165px;background-color: white;margin-top: -11px;}
+.otherindex p{text-align: center;font-size: 14px;color: #9c9da1;}
+.biaodian ul{margin-left: 70px;margin-top: 15px;}
+.biaodian ul li{float: left;margin-left: 30px;}
+.footer{margin-top: 720px;}
+.footer ul li{text-align: center;margin-top: 26px;font-size: 14px;color: #9c9da1;cursor:pointer;}
+
+
+
+
+
