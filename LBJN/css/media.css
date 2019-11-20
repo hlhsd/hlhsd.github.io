@@ -1,0 +1,228 @@
+@media(max-width:767px) {
+    body {
+        font-size: .75rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-size: .75rem;
+    }
+
+    .nav-all .header .nav-list li {
+        width: 60px;
+        font-size: .95rem;
+    }
+
+    .nav-all .header .nav-list {
+        padding-left: 160px;
+    }
+
+    .logo {
+        top: -10px;
+        left: 10px;
+    }
+
+    .logo h1 img {
+        max-width: 30%;
+    }
+
+    .banner .banner-box .swiper-main {
+        height: 226px;
+    }
+
+    .banner .banner-box .carousel-inner .item .carousel-caption .of {
+        width: 100px;
+        height: 25px;
+        font-size: .7rem;
+    }
+
+    .banner .banner-box .carousel-indicators .active {
+        width: 30px;
+        height: 2px;
+    }
+
+    .banner .banner-box .swiper-circle {
+        width: 30px;
+        height: 2px;
+    }
+
+    .banner .banner-box .carousel-inner .item .carousel-caption .of {
+        line-height: 1px;
+    }
+
+    .banner .banner-box .carousel-inner .item .carousel-caption a {
+        padding: 5px 20px;
+        font-size: .75rem;
+    }
+
+    .banner .banner-box .carousel-inner .item .carousel-caption {
+        top: 5%;
+    }
+
+    .banner .banner-box .carousel-inner .item .fx svg {
+        font-size: .75rem;
+    }
+
+    .banner .banner-box .carousel-inner .item .fx {
+        top: 46%;
+        right: 1%;
+    }
+
+    .return {
+        margin-left: 150px;
+    }
+
+    .return a svg {
+        font-size: 14px;
+    }
+
+    .company .container .row .content .content-top,
+    .content-bottom {
+        padding: 20px;
+    }
+
+    .news .container .content ul li .text {
+        margin: 7px 0 10px 0;
+        max-height: 80px;
+        overflow: hidden;
+    }
+
+    .news .container .content ul li .text h4,
+    .time {
+        margin: 0;
+        padding: 0;
+        font-size: .75rem;
+    }
+
+    .news .container .content ul li .text .section {
+        padding: 0;
+        font-size: .75rem;
+    }
+
+    .news .container .title img {
+        max-width: 25%;
+    }
+
+    .news .container .content .more a {
+        padding: 10px 20px;
+        font-size: .75rem;
+        box-shadow: 0 0 8px #5a5a5a;
+        background: #f39800;
+        color: #fff;
+
+    }
+
+    .story .title {
+        margin: 20px auto;
+    }
+
+    .story .title img {
+        max-width: 25%;
+    }
+
+    .story .content-list .content .caption p {
+        padding: 0;
+    }
+
+    .company .title img {
+        max-width: 25%;
+    }
+
+    .partner .title img {
+        max-width: 25%;
+    }
+
+    .partner .container .content ul li {
+        width: 52px;
+        height: 57px;
+    }
+
+    .join .container .title img {
+        max-width: 25%;
+    }
+
+    .join .container .content {
+        height: 177px;
+        background: none;
+    }
+
+    .join .container .content .content-us h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .join .container .content .content-us ul li:nth-child(n) {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .join .container .content .GPS ul li:nth-child(n) {
+        margin: 0;
+        padding: 0;
+        height: 30px;
+
+    }
+
+    .join .container .content .content-us ul {
+        margin-left: 20px;
+    }
+
+    .join .container .content .GPS ul {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .join .container .content .GPS ul li:nth-child(2n) {
+        margin-left: 15px;
+    }
+
+    .join .container .content .GPS ul li {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .footer ul .libox li h2 {
+        font-size: .8rem
+    }
+
+    .footer ul .libox li {
+        font-size: .75rem;
+    }
+
+    .footer ul .libox {
+        margin-left: 0;
+    }
+
+    .footer .ulbox>li:last-child {
+        margin-left: 26px;
+    }
+}
+
+@media(max-width:768px) {
+    .nav-all .header .nav-list {
+        display: none;
+    }
+}
+
+@media(min-width:768px) and (max-width:970px) {
+    .logo {
+        top: -10px;
+        left: 10px;
+    }
+
+    .logo h1 img {
+        max-width: 70%;
+    }
+}

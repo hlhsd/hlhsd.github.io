@@ -1,0 +1,442 @@
+@charset "UTF-8";
+header {
+  height: 3.8rem;
+  line-height: 3.8rem;
+  font-size: 0.24rem;
+  border-bottom: 1px solid #ccc;
+}
+
+header .row > .item1 > img {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  border-right: 1px solid #999999;
+  z-index: 8;
+  position: relative;
+}
+
+.erwmimgn {
+  float: left;
+  display: none;
+  position: absolute;
+  z-index: 8;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.erwmimgy {
+  float: left;
+  display: block;
+  position: absolute;
+  z-index: 8;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.navbar-default {
+  background-color: white;
+  z-index: 1;
+}
+
+.navbar-header a img {
+  margin-top: -16px;
+}
+
+.text-center:hover .text-center a img {
+  display: block;
+}
+
+.navbar-nav > li > .navright {
+  float: right;
+}
+
+.navbar-nav li:hover {
+  border-bottom: 3px solid red;
+}
+
+.navbar-nav li a {
+  padding-bottom: 22px;
+}
+
+.navbar {
+  height: 76px;
+}
+
+.navbar-nav {
+  margin-top: 15px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+#main_ad {
+  margin-top: -20px;
+}
+
+#main_ad .carousel-inner .item {
+  height: 410px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contener {
+  margin-top: 50px;
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
+.yuyue {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.yuyue ul li {
+  float: left;
+  line-height: 30px;
+}
+
+.yuyue-xcp {
+  float: right;
+}
+
+.redmoth {
+  color: red;
+}
+
+.redmoth a {
+  color: red;
+}
+
+.nav-tabs > li > a {
+  color: #999999;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 0px 0px 0 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: black;
+  cursor: default;
+  background-color: #f0f0f0;
+  border: 0px solid #ddd;
+  border-bottom: 3px solid red;
+}
+
+.xxk {
+  height: 500px;
+  margin-top: 50px;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.smxxk {
+  padding-top: 50px;
+}
+
+.banyuan1 {
+  margin-left: 240px;
+  margin-top: 137px;
+  position: absolute;
+  width: 20px;
+  height: 13px;
+  background-color: #f0f0f0;
+  border-radius: 50px 50px 0 0;
+  /* 左上、右上、右下、左下 */
+}
+
+.banyuan2 {
+  margin-left: 240px;
+  position: absolute;
+  width: 20px;
+  height: 13px;
+  background-color: #f0f0f0;
+  border-radius: 0 0 50px 50px;
+  /* 左上、右上、右下、左下 */
+}
+
+.zhengti2 {
+  background-color: #a5a5a5;
+}
+
+.zhengti {
+  height: 150px;
+  width: 350px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 40px;
+}
+
+.bili {
+  width: 250px;
+  height: 150px;
+  background-color: #ff0000;
+  float: left;
+}
+
+.gudin {
+  width: 100px;
+  height: 150px;
+  background-color: #ff0000;
+  float: left;
+  border-left: 1px dashed #c0c0c0;
+}
+
+.zhengti .bgw {
+  background-color: white;
+}
+
+.tiyanul .xinshou {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.tiyanul {
+  margin-top: 20px;
+}
+
+.tiyanul1 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tiyanul2 {
+  float: right;
+  margin-top: 10px;
+}
+
+.qitou {
+  color: #9b9999;
+}
+
+.gudinul {
+  margin-top: 50%;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.gudinul1li1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.gudinul1li2 {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.bili2 {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.gudin2 {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.news {
+  height: 350px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.news-title {
+  float: left;
+  width: 200px;
+  border-bottom: 1px dashed #c0c0c0;
+  position: absolute;
+  left: 50%;
+  margin-left: -490px;
+}
+
+.news-title p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.news .smnewsbox {
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 8;
+}
+
+.news .list-group {
+  width: 50px;
+  height: 290px;
+}
+
+.news .list-group li {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #ccc;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.news .list-group li a {
+  color: white;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+}
+
+.news .list-group .active {
+  background-color: red;
+}
+
+.news section .tab-content {
+  float: left;
+  width: 420px;
+  position: absolute;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: 30px;
+  border-left: 1px dashed #c0c0c0;
+}
+
+.news section .tab-content ul li {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.footerul1 {
+  position: relative;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: 48px;
+  width: 88px;
+  height: 32px;
+}
+
+.footerul1li {
+  font-family: "微软雅黑";
+  font-size: 22px;
+}
+
+.footerul2 {
+  height: 55px;
+  padding-bottom: 10px;
+}
+
+.footerul2 > li {
+  float: left;
+  margin-left: 40px;
+  border-left: 1px dashed #c0c0c0;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.footerul2 > li > a {
+  margin-left: 10px;
+}
+
+#footerul2li1 {
+  border-left: 0px dashed #c0c0c0;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 60%;
+  }
+  .navbar-header a img {
+    margin-top: 0px;
+  }
+  section {
+    width: 396px;
+    margin: 0 auto;
+  }
+  .xxk {
+    height: 1300px;
+  }
+  .news .smnewsbox {
+    width: 396px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+  }
+  .news .list-group {
+    width: 396px;
+  }
+  .news .list-group li {
+    float: left;
+    margin-left: 20px;
+  }
+  .news section .tab-content {
+    margin-top: 70px;
+  }
+  .news section .tab-content ul li {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .yuyue {
+    height: 50px;
+  }
+  #footerul2li1 {
+    border-left: 1px dashed #c0c0c0;
+  }
+  .row {
+    margin-left: 50px;
+  }
+  .news {
+    height: 380px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  section {
+    width: 769px;
+    margin: 0 auto;
+  }
+  .xxk {
+    height: 700px;
+  }
+  .navbar-brand img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 888px) {
+  .navbar-brand img {
+    width: 70%;
+  }
+  .navbar-header a img {
+    margin-top: -10px;
+  }
+  .nav > li > a {
+    padding: 10px 5px;
+  }
+}

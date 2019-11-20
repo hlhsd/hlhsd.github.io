@@ -2,539 +2,84 @@
 <html lang="zh">
 <head>
 	<meta charset="UTF-8">
-	<title>乐致数码首页</title>
-	<link rel="stylesheet" href="css/public.css">
-	<link rel="stylesheet" href="css/style.css">
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>石乐志的主页</title>
+	<base target=_blank>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" /><!--CSS RESET-->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<link href="dist/camroll_slider.css" rel="stylesheet"> 
+	<style>
+    #my-slider {
+      width: 100%;
+      height: 500px;
+      color: white;
+    }
+
+    @media (max-width: 640px) {
+      #my-slider .crs-bar-roll-current {
+        width: 38px;
+        height: 38px;
+      }
+
+      #my-slider .crs-bar-roll-item {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="header">
-    <nav class="mainNav">
-        <img class="logo" src="images/logo.png"/>
-        <ul class="navUl" id="navUl">
-            <li><a href="index.html">首 页</a></li>
-            <li>
-                <a href="phones.html">手机</a>
-                <!-- 二级菜单 -->
-                <ul class="submenu">
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/xm9.png"/></a></li>
-                    <li><a href="#">小米9se</a></li>
-                    <li>1999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj1.png"/></a></li>
-                    <li><a href="#">Redmi K20 Pro</a></li>
-                    <li>2499</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj2.png"/></a></li>
-                    <li><a href="#">魅族16s</a></li>
-                    <li>3198</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj3.png"/></a></li>
-                    <li><a href="#">华为P30Pro</a></li>
-                    <li>5999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj4.png"/></a></li>
-                    <li><a href="#">oppo Reno</a></li>
-                    <li>3999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj5.png"/></a></li>
-                    <li><a href="#">Redmi note 7 Pro</a></li>
-                    <li>1499</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlesj6.png"/></a></li>
-                    <li><a href="#">一加7Pro</a></li>
-                    <li>3999</li>
-                   </ul>   
-                </ul>            
-                <!-- 二级菜单 end -->
-            </li>
-            <li><a href="#">笔记本</a>
-                <!-- 二级菜单 -->
-                <ul class="submenu">
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn1.png"/></a></li>
-                    <li><a href="#">荣耀 magicbook</a></li>
-                    <li>3999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn2.png"/></a></li>
-                    <li><a href="#">联想拯救者</a></li>
-                    <li>5399</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn3.png"/></a></li>
-                    <li><a href="#">华为 MateBook</a></li>
-                    <li>6399</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn4.png"/></a></li>
-                    <li><a href="#">MacBook Pro</a></li>
-                    <li>8699</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn5.png"/></a></li>
-                    <li><a href="#">小米9se</a></li>
-                    <li>1999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn6.png"/></a></li>
-                    <li><a href="#">雷神911</a></li>
-                    <li>8599</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titledn7.png"/></a></li>
-                    <li><a href="#">微星G</a></li>
-                    <li>7599</li>
-                   </ul>   
-                </ul>
-                <!-- 二级菜单 end -->
-            </li>
-            <li><a href="#">智能家居</a>
-                <ul class="submenu">
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj1.png"/></a></li>
-                    <li><a href="#">米家吸尘器</a></li>
-                    <li>1299</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj2.png"/></a></li>
-                    <li><a href="#">小爱音箱 HD</a></li>
-                    <li>499</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj3.png"/></a></li>
-                    <li><a href="#">魅族路由器 急速版</a></li>
-                    <li>99</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj4.png"/></a></li>
-                    <li><a href="#">苹果音箱</a></li>
-                    <li>2399</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj5.png"/></a></li>
-                    <li><a href="#">米家滚筒洗衣机</a></li>
-                    <li>1999</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj6.png"/></a></li>
-                    <li><a href="#">小爱音箱触屏版</a></li>
-                    <li>299</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlejj7.png"/></a></li>
-                    <li><a href="#">小米手环3</a></li>
-                    <li>149</li>
-                   </ul>   
-                </ul>
-            </li>
-            <li><a href="#">配件</a>
-                <ul class="submenu">
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj1.png"/></a></li>
-                    <li><a href="#">魅族无线耳机</a></li>
-                    <li>399</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj2.png"/></a></li>
-                    <li><a href="#">魅族Flow耳机</a></li>
-                    <li>599</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj3.png"/></a></li>
-                    <li><a href="#">华为数据线</a></li>
-                    <li>29</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj4.png"/></a></li>
-                    <li><a href="#">小米圈铁耳机Pro</a></li>
-                    <li>149</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj5.png"/></a></li>
-                    <li><a href="#">小米充电宝</a></li>
-                    <li>99</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj6.png"/></a></li>
-                    <li><a href="#">坚果蓝牙音箱</a></li>
-                    <li>149</li>
-                   </ul>
-                   <ul class="submenul">
-                    <li><a href="#"><img src="images/titlepj7.png"/></a></li>
-                    <li><a href="#">魅族Live四单元耳机</a></li>
-                    <li>1099</li>
-                   </ul>   
-                </ul>
-            </li>
-            <li><a href="#">更多</a></li>
-        </ul>
-        <div class="containerl">
-			
-				<input type="text" class="search" id="search" placeholder="搜索">
-				<input type="button" name="" id="" class="sousuo">
-			
-			   <div class="ssts" id="ssts">
-					<ul class="sstsk">
-						<li><a href="#">米家扫地机器人</a></li>
-						<li><a href="#">魅族16s</a></li>
-						<li><a href="#">三星s10+</a></li>
-						<li><a href="#">米家IH智能电饭煲</a></li>
-						<li><a href="#">清水保护套</a></li>
-						<li><a href="#">iPhoneXR</a></li>
-						<li><a href="#">小米9</a></li>
-						<li><a href="#">redmi note7Pro</a></li>
-						<li><a href="#">魅族x8</a></li>
-						<li><a href="#">小米充电宝</a></li>
-					</ul>
-               </div>
-		</div>
-        <div class="header-img">
-        	<ul class="img">
-        		<li><img src="images/denglu.png"/></li>
-        		<li><a href="denglu.html">登陆</a></li>
-        	</ul>
-        	<ul class="img">
-        		<li><img src="images/gwc.png"/></li>
-        		<li><a href="#">购物车</a></li>
-        	</ul>
-        </div>
-    </nav>
-    
-</div>		
-	
-<div class="banner" id="banner">    
-        <ul class="sml" id="sml">
-          <li>
-            <a href="#"><img src="images/bannertv.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/bannersaodi.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/bannerhwpc.jpg"></a>
-          </li>
-        </ul>
-           
-      <div class="num" id="num">
-          <ul>
-               <li class="num0" id="numo"><a href="#">1</a></li>
-               <li class="num1" id="numw"><a href="#">2</a></li>
-               <li class="num2" id="nums"><a href="#">3</a></li>
-          </ul>
-      </div>
-      <div class="arrow" id="qqq">
-          <div class="arrow-left" id="left">&lt;</div>
-          <div class="arrow-right" id="right">&gt;</div>
-      </div>   
-</div>  
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>石乐志的主页</h1>
+			<p>电话13062348917</p>
+		</header>
+		<!-- slider -->
+	    <div id="my-slider" class="crs-wrap">
+	      <div class="crs-screen">
+	        <div class="crs-screen-roll">
+	          <div class="crs-screen-item" style="background-image: url('images/1.jpg')">
+	            <a href="LZSM/index.html"><div class="crs-screen-item-content"><h1>乐致数码网站</h1></div></a>
+	          </div>
+	          <div class="crs-screen-item" style="background-image: url('images/2.jpg')">
+	            <a href="LBJN/index.html"><div class="crs-screen-item-content"><h1>兰博基尼网站</h1></div></a>
+	          </div>
+	          <div class="crs-screen-item" style="background-image: url('images/3.jpg')">
+	            <a href="MUSIC/index.html"><div class="crs-screen-item-content"><h1>乐致音乐APP</h1></div></a>
+	          </div>
+	          <div class="crs-screen-item" style="background-image: url('images/4.jpg')">
+	            <a href="LZTG/index.html"><div class="crs-screen-item-content"><h1 style="color:black;">乐致糖果网站(响应式)</h1></div></a>
+	          </div>
+	          <div class="crs-screen-item" style="background-image: url('images/5.jpg')">
+	            <a href="ZJS/index.html"><div class="crs-screen-item-content"><h1 style="color:black;margin-top: 80px;">重金所金融网站(响应式)</h1></div></a>
+	          </div>
+	          <div class="crs-screen-item" style="background-image: url('images/6.jpg')">
+	            <a href="XS/index.html"><div class="crs-screen-item-content"><h1>秀山行政网</h1></div></a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="crs-bar">
+	        <div class="crs-bar-roll-current"></div>
+	        <div class="crs-bar-roll-wrap">
+	          <div class="crs-bar-roll">
+	            <div class="crs-bar-roll-item" style="background-image: url('images/1.jpg')"></div>
+	            <div class="crs-bar-roll-item" style="background-image: url('images/2.jpg')"></div>
+	            <div class="crs-bar-roll-item" style="background-image: url('images/3.jpg')"></div>
+	            <div class="crs-bar-roll-item" style="background-image: url('images/4.jpg')"></div>
+	            <div class="crs-bar-roll-item" style="background-image: url('images/5.jpg')"></div>
+	            <div class="crs-bar-roll-item" style="background-image: url('images/6.jpg')"></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
 
-<div class="big_section" id="content1">
-    <div class="section clearfix">
-		<div class="tuijian">
-		   <div class="xuanxiangka">
-				<ul>
-					<li class="li1" id="li1">最新活动</li>
-					<li class="li2" id="li2">推荐</li>
-					<li class="li1" id="li3">热销商品</li>
-				</ul>
-			</div>
-			<div class="xuanxiangbanner">
-			   <div class="xuanxiangsml" id="xxsml">
-			      <div class="xmimg">
-				      <div class="left-img">
-						  <ul>
-							<li><a href="#"><img src="images/xxk1.png"></a></li>
-							<li><a href="#">小米壁画电视</a></li>
-						  </ul>		  	
-				      </div>
-			         <div class="right-img">
-					  <ul class="right-bg">
-						<li><a href="#"><img src="images/xxk4.png"></a></li>
-						<li><a href="#">一加7PRO</a></li>
-						<li><a href="#">升降全面屏，90hz屏幕</a></li>
-					  </ul>
-					  <ul class="right-bg">
-						<li><a href="#"><img src="images/xxk3.png"></a></li>
-						<li><a href="#">魅族 LIVE</a></li>
-						<li><a href="#">四单元动铁耳机</a></li>
-					  </ul>
-					  <ul class="right-bg">
-						<li><a href="#"><img src="images/xxk2.png"></a></li>
-						<li><a href="#">米家投影仪</a></li>
-						<li><a href="#">3000流明，轻薄机身</a></li>
-					  </ul>
-					  <ul class="right-bg">
-						<li><a href="#"><img src="images/xxk5.png"></a></li>
-						<li><a href="#">魅族16s</a></li>
-						<li><a href="#">对称全面屏，屏下指纹</a></li>
-					  </ul>
-			    </div>
-				</div>
-				  <div class="xmimg">
-					<div class="left-img">
-					  <ul>
-						<li><a href="#"><img src="images/sxs10+1.png"></a></li>
-						<li><a href="#">Galaxy S10+</a></li>
-					  </ul>		  	
-					</div>
-					<div class="right-img">
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/sxds.png"></a></li>
-							<li><a href="#">三星QLED 8K电视</a></li>
-							<li><a href="#">置身所见，浸在真实</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/iwatch.png"></a></li>
-							<li><a href="#">Apple iwatch智能手表</a></li>
-							<li><a href="#">运动防水，心率检测</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/xiaoai.png"></a></li>
-							<li><a href="#">小米AI音箱</a></li>
-							<li><a href="#">智能语音控制</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/k20p.png"></a></li>
-							<li><a href="#">Redmi K20 Pro</a></li>
-							<li><a href="#">升降全面屏，屏下指纹</a></li>
-						  </ul>
-					</div>
-				</div>
-				  <div class="xmimg">
-					<div class="left-img">
-					  <ul>
-						<li><a href="#"><img src="images/xxk6.png"></a></li>
-						<li><a href="#">老干妈</a></li>
-					  </ul>		  	
-					</div>
-					<div class="right-img">
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/xxk7.png"></a></li>
-							<li><a href="#">雷蛇电竞鼠标</a></li>
-							<li><a href="#">超高灵敏度，炫酷外观</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/xxk8.png"></a></li>
-							<li><a href="#">Apple ipad Pro 2019</a></li>
-							<li><a href="#">A12处理器，120hz屏幕</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/xxk9.png"></a></li>
-							<li><a href="#">坚果Pro2</a></li>
-							<li><a href="#">漂亮得不像实力派</a></li>
-						  </ul>
-						  <ul class="right-bg">
-							<li><a href="#"><img src="images/xxk10.png"></a></li>
-							<li><a href="#">魅族x8</a></li>
-							<li><a href="#">小刘海，骁龙710</a></li>
-						  </ul>
-					</div>
-				</div>
-		       </div>
-		    </div>
-		</div>
-    </div>
-</div>
-
-<div class="title1 clearfix"><a href="#"><img src="images/title_sj.png"/></a></div> 
-<div class="big_section bg-sj" id="content2">
-    <div class="section clearfix">
-        <div class="title-sj3 title-sj3action">
-         	<ul>
-         		<li><a href="#"><img src="images/sj_03.png"/><span>三星S10+</span></a></li>
-         		<li><a href="#"><img src="images/sj_05.png"/><span>iPhoneXs</span></a></li>
-         		<li><a href="#"><img src="images/sj_07.png"/><span>小米9</span></a></li>
-         	</ul>
-         </div>     
-          <div class="goodss">
-	          <div class="title2"><a href="#"><img src="images/sj.jpg"/></a></div>
-	          <div class="goods">
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_03.png"/></a></li>
-						  <li><a href="#">小米9</a></li>
-						  <li>2999</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_05.png"/></a></li>
-						  <li><a href="#">魅族note9</a></li>
-						  <li>1999</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_07.png"/></a></li>
-						  <li><a href="#">魅族16s</a></li>
-						  <li>3198</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_09.png"/></a></li>
-						  <li><a href="#">华为P30Pro</a></li>
-						  <li>5999</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_19.png"/></a></li>
-						  <li><a href="#">Redmi note 7 Pro</a></li>
-						  <li>1599</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_16.png"/></a></li>
-						  <li><a href="#">oppo Reno</a></li>
-						  <li>3999</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_22.png"/></a></li>
-						  <li><a href="#">一加7Pro</a></li>
-						  <li>3999</li>
-					  </ul>
-					  <ul class="goodsl">
-						  <li><a href="#"><img src="images/title-sj_25.png"/></a></li>
-						  <li><a href="#">iPhone XR</a></li>
-						  <li>5499</li>
-					  </ul>                                         
-			     </div>	
-           </div>
-     </div>
-</div>
-
-<div class="titledq"><a href="#"><img src="images/title-dianqi.png"/></a></div>
-<div class="big_section bg-sj clearfix" id="content3">
-    <div class="section">
-        <div class="dianqi-hezi">
-			<div class="sj01 sjbj1" id="sj01"><img class="sj01img" id="sj01img" src="images/dqbigimg1.jpg"></div>
-			<div class="sj01 sjbj2" id="sj02"><img class="sj02img" id="sj02img" src="images/dqbigimg2.jpg"></div>
-			<div class="sj01 sjbj3" id="sj03"><img class="sj03img" id="sj03img" src="images/dqbigimg3.jpg"></div>
-			<div class="sj01 sjbj4" id="sj04"><img class="sj04img" id="sj04img" src="images/dqbigimg4.jpg"></div>
-        </div>	
-    </div>
-</div>		
-
-<div class="titledq"><a href="#"><img src="images/title-peijian.png"/></a></div>
-<div class="big_section bg-pj clearfix" id="content4">
-    <div class="section">
-        <div class="title-sj3 title-sj3action">
-         	<ul>
-         		<li><a href="#"><img src="images/appleyx.png"/><span>米家洗衣机</span></a></li>
-         		<li><a href="#"><img src="images/mzerji.png"/><span>触屏音箱</span></a></li>
-         		<li><a href="#"><img src="images/mzflow.png"/><span>小米手环3</span></a></li>
-         	</ul>
-         </div>     
-         <div class="goodss">
-	          <div class="goods">
-					  <ul class="goodsx">
-						  <li><a href="#"><img src="images/hwsjx.png"/></a></li>
-						  <li><a href="#">华为</a></li>
-						  <li><a href="#">标准数据线</a></li>
-						  <li>29</li>
-					  </ul>
-					  <ul class="goodsx">
-						  <li><a href="#"><img src="images/mz1000.png"/></a></li>
-						  <li><a href="#">魅族 LIVE </a></li>
-						  <li><a href="#">四单元动铁耳机</a></li>
-						  <li>1099</li>
-					  </ul>
-					  <ul class="goodsx">
-						  <li><a href="#"><img src="images/xmerji149.png"/></a></li>
-						  <li><a href="#">小米</a></li>
-						  <li><a href="#">圈铁耳机Pro</a></li>
-						  <li>149</li>
-					  </ul>
-					  <ul class="goodsx">
-						  <li><a href="#"><img src="images/xmcdb.png"/></a></li>
-						  <li><a href="#">小米充电宝 限量版</a></li>
-						  <li><a href="#">BROWN & FRIENDS</a></li>
-						  <li>99</li>
-					  </ul>
-					  <ul class="goodsx">
-					      <li><a href="#"><img src="images/jianguoyx.png"/></a></li>
-						  <li><a href="#">坚果</a></li>
-						  <li><a href="#">砖式蓝牙小音箱</a></li>
-						  <li>149</li>  
-					  </ul>                                        
-			     </div>	
-           </div>
-           <div class="dibuxuanxiang">
-				<ul>
-					<li class="dbxx">更多配件</li>
-					<li><img src="images/more.png"></li>
-				</ul>
-                <ul>
-					<li class="dbxx">笔记本专区</li>
-					<li><img src="images/compuer.png"></li>
-				</ul>
-                <ul>
-					<li class="dbxx">生活专区</li>
-					<li><img src="images/shenghuo.png"></li>
-				</ul>
-           </div>
-     </div>
-</div>						
-
-<div class="big_section footer">
-    <div class="section clearfix">
-         <div class="footer-title">
-         	<ul>
-         		<li><img src="images/baoyou.png"></li>
-         		<li>全场包邮</li>
-         	</ul>
-         	<ul>
-         		<li><img src="images/tuihuo.png"></li>
-         		<li>7天无理由退货</li>
-         	</ul>
-         	<ul>
-         		<li><img src="images/huanhuo.png"></li>
-         		<li>15天免费换货</li>
-         	</ul>
-         	<ul>
-         		<li><img src="images/baoxiu.png"></li>
-         		<li>一年保修服务</li>
-         	</ul>
-         	<ul>
-         		<li><img src="images/kefu.png"></li>
-         		<li>售后网点</li>
-         	</ul>
-         </div>
-         <div class="footer-title2">
-             <ul>
-             	<li>帮助中心</li>
-             	<li>账户管理</li>
-             	<li>购物指南</li>
-             	<li>订单操作</li>
-             </ul>
-             <ul>
-             	<li>服务支持</li>
-             	<li>售后政策</li>
-             	<li>自助服务</li>
-             	<li>相关下载</li>
-             </ul>
-             <ul>
-             	<li>关于乐致</li>
-             	<li>了解乐致</li>
-             	<li>加入乐致</li>
-             	<li>投资者关系</li>
-             </ul>
-             <ul>
-             	<li>关注我们</li>
-             	<li>新浪微博</li>
-             	<li>官方微信</li>
-             	<li>联系我们</li>
-             </ul>
-             <ul>
-             	<li>特色服务</li>
-             	<li>LZ码通道</li>
-             	<li>礼物码</li>
-             	<li>防伪查询</li>
-             </ul>
-		</div>
 	</div>
-	<div class="footer-text"><p>©2019 LeZhi Telecom Equipment Co., Ltd. All rights reserved.     渝CP备13003602号 合字B2-20170010 营业执照 法律声明  渝公网安备 44049102496009 号</p></div>								
-</div>						
-						
-<script src="js/1.js"></script>								
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="dist/camroll_slider.js"></script> 
+	<script>
+		$("#my-slider").camRollSlider();
+	</script>
 </body>
 </html>

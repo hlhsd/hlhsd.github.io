@@ -1,0 +1,18 @@
+@charset "utf-8";
+body{overflow:scroll;
+	overflow-x:hidden;}
+*{margin:0; padding:0;}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+}
+
+.bgsection{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
+.section{width: 1200px;margin: 0 auto;}
+/* ::-webkit-input-placeholder{font-size: 14px; color:white;}  */
+

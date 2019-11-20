@@ -1,0 +1,7 @@
+.zu06bg{margin-top: 1700px;}
+
+@media screen and (max-width: 768px){
+.zu06bg {
+    margin-top: 760px;
+}
+}

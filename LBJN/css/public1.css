@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.icon { 
+    width: 1.5em; height: 1.5em; 
+    vertical-align: -0.15em; 
+    fill: currentColor; 
+    overflow: hidden; } 
+/* .container{
+    width: 1200px;;
+}
+section{
+    width: 100%;
+} */
+section{
+    margin-bottom: 50px;
+}
+div{
+    display:block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
